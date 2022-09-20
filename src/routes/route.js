@@ -13,4 +13,5 @@ router.post("/register", userController.createUser)
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~(POST API / loginuser)~~~~~~~~~~~~~~~~~~~~~~~~~
 
-router.post("/login", userController.createUser)
+// router.post("/login", userController.createUser)
+module.exports = router
