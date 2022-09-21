@@ -89,8 +89,6 @@ const createUser = async function(req, res) {
 
 
         //checking for duplicacy
-
-
         let createUser = await UserModel.create(data)
         return res.status(201).send({ status: true, message: "user created successfilly", data: createUser })
     } catch (error) {
